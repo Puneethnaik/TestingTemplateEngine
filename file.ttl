@@ -1,0 +1,7 @@
+constraint cs1 1 100000
+variable n cs1 sp
+variable m cs1 nl
+loop m
+    constraint cs2 1 n
+    variable l cs2
+    variable r cs2
